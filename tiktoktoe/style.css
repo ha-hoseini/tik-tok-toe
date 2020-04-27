@@ -1,0 +1,32 @@
+.game-content{
+    width: fit-content;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    margin: 60px auto;
+    border-radius: 4px;
+}
+.row{
+    flex-direction: row;
+    display: flex;
+    border-bottom: 1px solid rgb(231, 230, 230);
+    margin: 0px;
+    text-align: center;
+    
+}
+.square{
+    width: 53px;
+    height: 53px;
+    display: inline-block;
+    border-right: 1px solid rgb(231, 230, 230); 
+    cursor: pointer;
+}
+.square:hover{
+    background-color: lightblue;
+}
+#pos-2,#pos-5,#pos-8{
+    border-right: none;
+}
+.row-3{
+    border-bottom: none;
+}
